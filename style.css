@@ -21,6 +21,9 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .countdowns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
     .countdown {
         border: 1px solid black;
         padding: 20px;
