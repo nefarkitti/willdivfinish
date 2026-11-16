@@ -54,6 +54,8 @@ addCountdown(`Will Div Finish House of the Dragon by 2028?`, 1833843600000)
 addCountdown(`Will Div Finish Kill la Kill?`, 1803862861000)
 addCountdown(`Will Div Propose to His Boyfriend?`, 1893459600000)
 addCountdown(`Will Div Finish Dungeon Meshi?`, 1803862861000)
+addCountdown(`Will Div Get to Watch The Fully Animated CSM Series?`, 2051226000000)
+addCountdown(`Will Div Finish Valheim?`, 1798678800000)
 
 function tick() {
 
