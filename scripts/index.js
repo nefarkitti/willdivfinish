@@ -52,6 +52,7 @@ function addCountdown(title, exp) {
 addCountdown(`Will Div Finish The PM Series Before The Mili Concert?`, 1833843600000)
 addCountdown(`Will Div Finish House of the Dragon by 2028?`, 1833843600000)
 addCountdown(`Will Div Finish Kill la Kill?`, 1803862861000)
+addCountdown(`Will Div Propose to His Boyfriend?`, 1893459600000)
 
 function tick() {
 
