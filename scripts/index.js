@@ -29,7 +29,7 @@ function countdown(to, elm) {
         days = days % 365;
     }
 
-    elm.innerText = `${addzero(years)}:${addzero(days)}:${addzero(hours)}:${addzero(minutes)}:${addzero(seconds)}`
+    elm.innerText = `- ${addzero(years)}:${addzero(days)}:${addzero(hours)}:${addzero(minutes)}:${addzero(seconds)} -`
 
     setTimeout(() => {
         return countdown(to, elm)
@@ -41,7 +41,8 @@ function addCountdown(title, exp) {
 
     COUNTDOWNS.innerHTML += `
     <div class="countdown">
-                <h3>${title}</h3>
+                <h2>${title}</h2>
+                <hr>
                 <p class="count" data-expiry="${exp}"></p>
             </div>
     `
