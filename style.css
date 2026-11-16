@@ -11,9 +11,11 @@ main {
 
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100vw;
     height: 100dvh;
+    padding: 10px;
+    padding-top: 20px;
+    box-sizing: border-box;
 
 }
 h1,h2,h3,h4,h5,h6,p {
@@ -22,8 +24,8 @@ h1,h2,h3,h4,h5,h6,p {
 
 .countdowns {
     display: flex;
-    flex-wrap: wrap;
     gap: 5px;
+    flex-direction: column;
     .countdown {
         border: 1px solid black;
         padding: 20px;
